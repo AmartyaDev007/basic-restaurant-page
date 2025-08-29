@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* main unmovable stuff */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body { 
+    background-image: url('./assets/patryk-gauza-vs0tzSHVcac-unsplash.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+
+
+header { 
+    display: flex;
+    height: 72px;
+    /* border: solid red; */
+    justify-content: space-between;
+    background-color: rgb(57, 37, 27);
+    align-items: center;
+}
+
+.nav-bar { 
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar > nav > button { 
+    color: white;
+    background-color: #b06413;
+    text-decoration: none;
+    border-style: none;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: "Bad Script", cursive;
+    width: 120px;
+}
+
+.nav-bar > nav > button:hover { 
+    background-color: #d4882a;
+    cursor: pointer;
+} 
+
+.cool-text { 
+    font-family: "Bad Script", cursive;
+    font-weight: 900;
+    font-size: 36px;
+    font-style: normal;
+    /* border: 2px solid red; */
+    color: #b06413;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 #b06413, -1px 0 #b06413, 0 1px #b06413, 0 -1px #b06413;
+    
+}
+
+.coffee-png { 
+    height: 100px;
+    margin-right: 20px;
+}
+
+
