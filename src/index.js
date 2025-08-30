@@ -4,6 +4,9 @@ import showContact from './code/contact.js';
 import showHome from './code/home.js';
 
 
+// initial page load
+showHome();
+
 function clearPage() { 
     const content = document.querySelector('#content');
     content.innerHTML = '';
@@ -27,3 +30,4 @@ contactButton.addEventListener('click', () => {
     clearPage();
     showContact();
 })
+
