@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Bahnschrift, sans-serif;
 }
 
 html, body {
@@ -70,7 +70,6 @@ header {
     margin-left: 20px;
     letter-spacing: 2px;
     text-shadow: 1px 0 #b06413, -1px 0 #b06413, 0 1px #b06413, 0 -1px #b06413;
-    
 }
 
 .coffee-png { 
@@ -79,3 +78,41 @@ header {
 }
 
 
+#content { 
+    /* border: 2px solid blue; */
+    color: white;
+    margin: 20px;
+    padding: 24px 72px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 24px;
+    min-height: calc(100vh - 144px);
+    width: 60%;
+    margin-left: auto;
+    align-items: center;
+    margin-right: auto;
+}
+
+/* content for home */
+
+#content > .home-ul { 
+    padding-left: 20px;
+}
+
+
+.home-h1, .home-h2 { 
+    text-decoration: underline;
+    margin: 20px 0;
+}
+
+/* content for  menu*/
+
+
+/* content for contact */
+
+/* footer */
+
+
+footer { 
+    background-color: #d4882a;
+    display: flex;
+}

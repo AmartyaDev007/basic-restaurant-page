@@ -1,5 +1,7 @@
 export default function showHome() { 
-    return;
+    const headingOne = document.createElement('h1');
+    headingOne.textContent = "Coco's Coffee";
+    headingOne.classList.add('home-h1');
 
     
 }
